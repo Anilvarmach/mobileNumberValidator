@@ -1,0 +1,57 @@
+.card{
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 600px;
+}
+
+/* ICON STYLE */
+.icon{
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+#valid,#local-format,#number,#international-format,#country-prefix,
+#country-code,#country-name,#location,#carrier,#line-type{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 20px ;
+}
+ .fa-check-circle, #valid{
+    color: green;
+}
+
+.fa-phone-square-alt,#number{
+    color: indigo;
+}
+
+.fa-location-arrow,#local-format{
+    color: goldenrod;
+}
+
+.fa-yandex-international,#international-format{
+    color: firebrick;
+}
+
+.fa-globe-asia,#country-prefix{
+    color: navy;
+}
+
+.fa-barcode,#country-code {
+    color: hotpink;
+}
+
+.fa-flag,#country-name{
+    color: orange;
+}
+
+.fa-search-location,#location{
+    color: peru;
+}
+.fa-broadcast-tower,#carrier{
+    color: red;
+}
+
+.fa-mobile-alt,#line-type{
+    color: royalblue;
+}
+
